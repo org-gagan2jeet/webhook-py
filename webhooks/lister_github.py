@@ -1,19 +1,15 @@
+import requests
 from flask import json
 from flask import request
-from flask import Flask
+from flask import Flask, render_template
+import config
+from gitapi import github
 
 app = Flask(__name__)
-
+app.register_blueprint(github, url_prefix="/api")
 @app.route('/')
 def api_root():
-    return "Welcome Gagan"
-
-@app.route('/github', methods=['POST'])
-def api_gh_message():
-    if request.headers['Content-Type'] == 'application/json':
-        json_reponse = json.dumps(request.json)
-        print(json_reponse)
-        return json_reponse
+    return "This is the FLASK Web API"
 
 if __name__ == '__main__':
     app.run(debug=True)
