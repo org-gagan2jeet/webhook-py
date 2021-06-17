@@ -1,7 +1,7 @@
 # Github Webhook with Flask and Python on Windows
 
 ## Code exercise example:
-?Please create a simple web service that listens for organization events to know when a repository has been created. When the repository is >created please automate the protection of the master branch. Notify yourself with an @mention in an issue within the repository that outlines the >protections that were added.
+> Please create a simple web service that listens for organization events to know when a repository has been created. When the repository is created please automate the protection of the master branch. Notify yourself with an @mention in an issue within the repository that outlines the protections that were added.
 
 ## Pre-requisite
 Before we can start with this example, please install the following on the machine:
@@ -10,6 +10,7 @@ Software | URL
 Visual Studio Code | https://code.visualstudio.com/
 Python | https://www.python.org/downloads/
 Ngrok | https://dashboard.ngrok.com/get-started/setup
+
 ` Ngrok is used to expose the localhost endpoint`
 
 ## Get the code repoistory and execute
