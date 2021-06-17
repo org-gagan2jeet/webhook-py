@@ -16,7 +16,7 @@ Ngrok | https://dashboard.ngrok.com/get-started/setup
 ## Create a Persoanl Access Token
 * Go to the URL https://github.com/settings/apps and create a PAT
 * Select the desired permissions and click save
-* make sure you copy the secret locally (You will not be able to view this again)
+* Make sure you copy the secret locally (You will not be able to view this again)
 
 ## Get the code repoistory and execute
 * Create a new code repository
