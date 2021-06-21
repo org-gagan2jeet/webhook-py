@@ -13,7 +13,7 @@ Ngrok | https://dashboard.ngrok.com/get-started/setup
 
 ` Ngrok is used to expose the localhost endpoint`
 
-## Create a Persoanl Access Token
+## Create a Persoanl Access Token (use access token for production)
 * Go to the URL https://github.com/settings/apps and create a PAT
 * Select the desired permissions and click save
 * make sure you copy the secret locally (You will not be able to view this again)
